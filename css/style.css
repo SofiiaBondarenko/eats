@@ -1,0 +1,263 @@
+:root{
+    --text-color: #252B42;
+    --main-color: #ffffff;
+    --accent-color: #FA4A0C;
+    --details-color: #737373;
+    --titles-color: #000000;
+}
+
+body{
+    font-family: Montserrat;
+    font-weight: bold;
+}
+
+.container{
+    max-width: 1265px;
+    padding: 0 15px;
+    margin: 0 auto;
+    /* outline: 1px solid green;; */
+}
+.header{
+    padding-top: 50px;
+    padding-bottom:  41px;
+}
+.header-list{
+    margin-left: 455px;
+    display: flex;
+    justify-content:space-evenly;
+    width: 100%;
+}
+
+.header-link-current{
+    color: var(--accent-color);
+    font-weight: 600;
+    line-height: 1.75;
+}
+.header-link{
+    line-height: 1.75;
+    font-weight: 600;
+    color: var(--text-color);
+}
+
+.header-link:hover{
+    line-height: 1.75;
+    font-weight: 600;
+    color: var(--accent-color);
+}
+
+.header-box{
+    display: flex;
+    align-items: center;
+}
+.header-logo{
+     width: 150px;
+}
+
+.meet{
+    padding-top: 80px;
+    background-image: url(../img/bg-meet.jpg);
+    background-size: cover;
+    padding-bottom: 162px;
+}
+
+.meet-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.meet-subtitle{
+    line-height: 1.5;
+    margin-bottom: 10px;
+    color: var(--main-color);
+    font-size: 24px;
+}
+
+.meet-title{
+    line-height: 1.37;
+    margin-bottom: 5px;
+    color: var(--main-color);
+    font-size: 58px;
+    width: 730px;
+}
+
+.meet-secsubtitle{
+    line-height: 1.58;
+    margin-bottom: 54px;
+    color: var(--main-color);
+    font-size: 24px;
+}
+
+.meet-list{
+    display: flex;
+    gap: 67px;
+}
+
+.meet-btn{
+    font-weight: bold;
+    color: var(--main-color);
+    text-align: center;
+    font-size: 24px;
+    line-height: 1.5;
+    border-radius: 30px;
+    letter-spacing: 0.1px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 10px 30px 0px rgba(183, 50, 39, 0.20);
+}
+
+.delivery{
+    padding: 16px 65px;
+    background-color: var(--accent-color);
+}
+
+.menu{
+    padding: 16px 82px;
+    background-color: #00000000;
+    border: 1px solid var(--main-color);
+}
+
+.menu:hover{
+    padding: 16px 82px;
+    background-color: var(--accent-color);
+    border: 1px solid var(--accent-color);
+}
+
+.instruction{
+    padding-top: 56px;
+}
+
+.instruction-title{
+    font-size: 44px;
+    line-height: 1.13;
+    text-align: center;
+}
+
+.instruction-item{
+    display: flex;
+    flex-direction: row;
+    margin-top: 108px;
+}
+
+.instruction-img{
+    width: 250px;
+    height: 506.972px;  
+    margin-right: 287px;
+}
+
+.instr-list{
+    margin-top: 113px;
+}
+
+
+.instruction-link{
+    font-size: 24px;
+    color: var(--accent-color);
+    line-height: 1.5;
+    margin-bottom: 17px;
+}
+
+.instruction-subtitle{
+    font-size: 40px;
+    line-height: 1.4;
+    color: var(--titles-color);
+    margin-bottom: 27px;
+
+}
+
+.instruction-text{
+    font-weight: 500;
+    font-size: 24px;
+    color: var(--details-color);
+    line-height: 1.58;
+    width: 467px;
+}
+
+.shop{
+    width: 480px;
+}
+
+.shoptext{
+    width: 462px;
+}
+
+.phone2{
+    margin-left: 332px;
+}
+
+.ordernow{
+    background-image: url(../img/bgordernow.jpg);
+    padding-top: 150px;
+    padding-bottom: 131px;
+}
+
+
+.ordernow-title{
+    text-align: center;
+    color: var(--main-color);
+    font-size: 40px;
+    line-height: 1.425;
+    margin-bottom: 20px;
+}
+
+.ordernow-text{
+    font-weight: 500;
+    color: var(--main-color);
+    line-height: 1.58;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.ordernow-list{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+.ordernow-btn{
+    border-radius: 10px;
+    color: var(--main-color);
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.5;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pls{
+    padding: 16px 31px;
+    background-color: var(--accent-color);
+}
+
+.app{
+    padding: 16px 45px;
+    background-color: #00000000;
+    border: 1px solid var(--main-color);
+}
+
+.app:hover{
+    padding: 16px 45px;
+    background-color: var(--accent-color);
+    border: 1px solid var(--accent-color);
+}
+
+.footer{
+    padding-top: 113px;
+    padding-bottom: 59px;
+}
+
+.footer-logo{
+    width: 150px;
+}
+
+.footer-text{
+    font-size: 12px;
+    color: var(--details-color);
+}
+
+.footer-box{
+    display: flex;
+    gap: 845px;
+    align-items: center;
+}
